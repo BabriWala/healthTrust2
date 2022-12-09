@@ -18,45 +18,50 @@ import YoutubeEmbed from "./YoutubeEmbed/YoutubeEmbed";
 const Membership = () => {
   const [isOff, setIsOff] = useState(true);
   return (
-    <div>
-      <section className="w-full bg-orange-500">
-        <Image
-          className="mx-auto my-20"
-          src={profilePic}
-          alt="Picture of the author"
-          width={500}
-          height={500}
-        />
-        <p className="text-white text-5xl font-bold mx-auto text-center p-0">
-          Introducing membership with all the bells and whistles.
-        </p>
+    <div className="text-black" style={{ backgroundColor: "#FFFFFF" }}>
+      <section className="w-full my-10 ">
+        <div className="my-10 p-10" style={{ backgroundColor: "#0e162f" }}>
+          <Image
+            className="mx-auto my-20"
+            src={profilePic}
+            alt="Picture of the author"
+            width={500}
+            height={500}
+          />
+          <p className="text-white text-5xl font-bold mx-auto text-center p-0">
+            Introducing membership with all the bells and whistles.
+          </p>
 
-        <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 text-center my-10 ">
-          <div className="flex items-center mx-auto text-center text-2xl">
-            <Image src={tic} alt="checkmark" /> Prescription refills
+          <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 text-center my-10 text-white ">
+            <div className="flex items-center mx-auto text-center text-2xl">
+              <Image src={tic} alt="checkmark" /> Prescription refills
+            </div>
+            <div className="flex items-center  mx-auto text-2xl  ">
+              <Image src={tic} alt="checkmark" /> Text your Care Team from
+              anywhere
+            </div>
+            <div className="flex items-center  mx-auto text-2xl">
+              <Image src={tic} alt="checkmark" /> Discounts on prescriptions
+            </div>
+            <div className="flex items-center  mx-auto text-2xl">
+              <Image src={tic} alt="checkmark" /> Priority access to any clinic
+            </div>
           </div>
-          <div className="flex items-center  mx-auto text-2xl  ">
-            <Image src={tic} alt="checkmark" /> Text your Care Team from
-            anywhere
-          </div>
-          <div className="flex items-center  mx-auto text-2xl">
-            <Image src={tic} alt="checkmark" /> Discounts on prescriptions
-          </div>
-          <div className="flex items-center  mx-auto text-2xl">
-            <Image src={tic} alt="checkmark" /> Priority access to any clinic
+
+          <div className="mx-auto text-center">
+            <button
+              style={{ backgroundColor: "#3fc2cd" }}
+              className="text-white text-2xl p-3 rounded-lg "
+            >
+              Join Today
+            </button>
           </div>
         </div>
 
-        <div className="mx-auto text-center">
-          <button
-            style={{ backgroundColor: "#3fc2cd" }}
-            className="text-white text-2xl p-3 rounded-lg "
-          >
-            Join Today
-          </button>
-        </div>
-
-        <div class="grid lg:grid-cols-2 sm:grid-cols-1 my-10">
+        <div
+          style={{ backgroundColor: "#fff" }}
+          class="grid lg:grid-cols-2 sm:grid-cols-1 my-10 bg-slate-500"
+        >
           <div className="text-center my-auto">
             <p className="text-4xl ">
               A fast pass to all of our clinics.
@@ -71,7 +76,7 @@ const Membership = () => {
           />
         </div>
 
-        <div class="grid lg:grid-cols-2 sm:grid-cols-1 my-10">
+        <div class="grid lg:grid-cols-2 sm:grid-cols-1 my-10 bg-slate-50">
           <Image
             className="mx-auto my-20"
             src={pic2}
@@ -88,7 +93,7 @@ const Membership = () => {
           </div>
         </div>
 
-        <div class="grid lg:grid-cols-2 sm:grid-cols-1 my-10 ml-5">
+        <div class="grid lg:grid-cols-2 sm:grid-cols-1 my-10 ml-5 bg-slate-400">
           <div className=" my-auto">
             <p className="text-4xl ">
               Prescription refills & <br /> discounts for your busy <br />{" "}
@@ -109,19 +114,19 @@ const Membership = () => {
 
         {/* amount  */}
 
-        <section className="mx-auto text-center">
+        <section className="mx-auto text-center  bg-slate-300 p-10">
           <div className="mx-auto">
             <div className="mx-auto ">
-              <span>Monthly</span>{" "}
+              <span className="text-5xl font-bold">Monthly</span>{" "}
               <input
                 type="checkbox"
                 onClick={() => setIsOff(!isOff)}
                 className="toggle mx-auto"
                 unchecked
               />{" "}
-              <span>Anually</span>
+              <span className="text-5xl font-bold">Anually</span>
             </div>
-            <div class="row align-middle align-center">
+            <div class="row align-middle align-center ">
               <div class="large-12 medium-12 small-12 columns">
                 <div class="heading">
                   {!isOff && <h2 className="text-5xl font-bold">$12</h2>}
@@ -135,7 +140,7 @@ const Membership = () => {
                   )}
                 </div>
 
-                <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 text-center my-10 ">
+                <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 text-center my-10  ">
                   <div className="flex items-center mx-auto text-center">
                     <Image src={tic2} alt="checkmark" /> Access to digital
                     health
@@ -215,8 +220,10 @@ const Membership = () => {
         {/* health care  */}
 
         {/* FAQ  */}
-        <div className="my-10">
-          <h1>Frequently Asked Question</h1>
+        <div className="my-10 mx-20 text-white bg-slate-300 p-10">
+          <h1 className="text-5xl  text-center font-bold">
+            Frequently Asked Question
+          </h1>
 
           <div
             tabIndex={0}
