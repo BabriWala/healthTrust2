@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { MdStarRate } from "react-icons/md"
-import "../../styles/Contact.module.css"
 
 const index = () => {
     return (
@@ -79,17 +78,44 @@ const index = () => {
                         </form>
 
                     </div>
-                    <div className="px-3">
-                        <div className="bg-[#F4F5F5]">
-                            <h4 className="py-4 px-6 text-white text-xl font-semibold bg-[#6D7274]">Contact Info</h4>
-                            <div className="px-6 py-8">
-                                <p className="text-lg font-bold mb-3">General</p>
-                                <p className="font-medium">Email: <span className=" text-sky-500"> team@gmail.com</span></p>
 
-                                {/* billing section */}
-                                <p className="text-lg font-bold mt-6 mb-3">Billing</p>
-                                <p className="font-medium">Phone: <span className=" text-sky-500"> (601) 707-3279</span> </p>
-                                <p className="font-medium">Email: <span className=" text-sky-500"> billing@trustcarehealth.com</span></p>
+
+
+                    <div>
+                        {/* sidebar */}
+                        <div className="px-3 my-12">
+                            <div className="bg-[#F4F5F5]">
+                                <h4 className="py-4 px-6 text-white text-xl font-semibold bg-[#0E162F]">Navigation</h4>
+                                <div className="px-6 py-8 bg-[#3FC2CD] text-white">
+                                    <ul className="list-none">
+                                        <Link href="/"><li className="pb-2 border-b my-2 hover:text-black font-medium text-lg">Home</li></Link>
+                                        <Link href="/about"><li className="pb-2 border-b my-2 hover:text-black font-medium text-lg">About</li></Link>
+                                        <Link href="/employer"><li className="pb-2 border-b my-2 hover:text-black font-medium text-lg">Employer</li></Link>
+                                        <Link href="/services"><li className="pb-2 border-b my-2 hover:text-black font-medium text-lg">Services</li></Link>
+                                        <Link href="/ourPhysicians"><li className="pb-2 border-b my-2  hover:text-black font-medium text-lg">Our Physians</li></Link>
+                                        <Link href="/contact"><li className="pb-2 my-2 hover:text-white text-black font-medium text-lg">Contact</li></Link>
+                                    </ul>
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* contact info */}
+                        <div className="px-3">
+                            <div className="bg-[#F4F5F5]">
+                                <h4 className="py-4 px-6 text-white text-xl font-semibold bg-[#6D7274]">Contact Info</h4>
+                                <div className="px-6 py-8">
+                                    <p className="text-lg font-bold mb-3">General</p>
+                                    <p className="font-medium">Email: <span className=" text-sky-500"> team@gmail.com</span></p>
+
+                                    {/* billing section */}
+                                    <p className="text-lg font-bold mt-6 mb-3">Billing</p>
+                                    <p className="font-medium">Phone: <span className=" text-sky-500"> (601) 707-3279</span> </p>
+                                    <p className="font-medium">Email: <span className=" text-sky-500"> billing@trustcarehealth.com</span></p>
+                                </div>
                             </div>
                         </div>
                     </div>

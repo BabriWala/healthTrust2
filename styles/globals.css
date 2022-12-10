@@ -38,6 +38,11 @@ a {
   background-position: center;
   background-size: cover;
 }
+.physiansHeroBg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../public/dpc-hero.jpg");
+  background-position: top;
+  background-size: cover;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
