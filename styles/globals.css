@@ -17,12 +17,10 @@ body {
 }
 
 .video-responsive iframe {
-
   height: 100%;
   width: 100%;
   position: absolute;
 }
-
 
 a {
   color: inherit;
@@ -33,7 +31,7 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -41,4 +39,4 @@ a {
     color: white;
     background: black;
   }
-}
+} */
