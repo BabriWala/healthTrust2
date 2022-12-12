@@ -89,27 +89,27 @@ const index = () => {
         </div>
         <div>
           <h2 className=" py-7 px-5 text-xl text-white bg-[#0e162f] font-medium">Services</h2>
-          <h3 className="py-2 px-5 text-white font-medium text-xl bg-[#3fc2cd]">COVID-19 Testing</h3>
-          <h3 className="py-2 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Urgent Care</h3>
-          <h3 className="py-2 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Gastroenteritis</h3>
-          <h3 className="py-2 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Gout</h3>
-          <h3 className="py-2 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Hypertension (High Blood Pressure)</h3>
-          <h3 className="py-2 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Influenza</h3>
-          <h3 className="py-2 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Lifting/Proper Body Mechanics</h3>
-          <h3 className="py-2 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Low Back Pain</h3>
-          <h3 className="py-2 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Sinusitis</h3>
-          <h3 className="py-2 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Sprains & Strains</h3>
-          <h3 className="py-2 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Strep Throat (Acute Strep Pharyngitis)</h3>
-          <h3 className="py-2 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Upper Respiratory Infection</h3>
-          <h3 className="py-2 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Urinary Tract Infection (UTI)</h3>
-          <h3 className="py-2 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Primary Care</h3>
-          <h3 className="py-2 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Direct Primary Care</h3>
-          <h3 className="py-2 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Digital X-Rays</h3>
-          <h3 className="py-2 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Wellness Exams</h3>
-          <h3 className="py-2 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Kids’ Physicals</h3>
-          <h3 className="py-2 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Vaccines and Immunizations</h3>
-          <h3 className="py-2 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Telehealth</h3>
-          <h3 className="py-2 px-5 text-white font-medium text-xl bg-[#3fc2cd]">TrustCare Rx</h3>
+          <h3 className="py-7 px-5 text-white font-medium text-xl bg-[#3fc2cd]">COVID-19 Testing</h3>
+          <h3 className="py-7 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Urgent Care</h3>
+          <h3 className="py-7 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Gastroenteritis</h3>
+          <h3 className="py-7 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Gout</h3>
+          <h3 className="py-7 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Hypertension (High Blood Pressure)</h3>
+          <h3 className="py-7 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Influenza</h3>
+          <h3 className="py-7 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Lifting/Proper Body Mechanics</h3>
+          <h3 className="py-7 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Low Back Pain</h3>
+          <h3 className="py-7 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Sinusitis</h3>
+          <h3 className="py-7 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Sprains & Strains</h3>
+          <h3 className="py-7 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Strep Throat (Acute Strep Pharyngitis)</h3>
+          <h3 className="py-7 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Upper Respiratory Infection</h3>
+          <h3 className="py-7 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Urinary Tract Infection (UTI)</h3>
+          <h3 className="py-7 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Primary Care</h3>
+          <h3 className="py-7 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Direct Primary Care</h3>
+          <h3 className="py-7 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Digital X-Rays</h3>
+          <h3 className="py-7 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Wellness Exams</h3>
+          <h3 className="py-7 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Kids’ Physicals</h3>
+          <h3 className="py-7 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Vaccines and Immunizations</h3>
+          <h3 className="py-7 px-5 text-white font-medium text-xl bg-[#3fc2cd]">Telehealth</h3>
+          <h3 className="py-7 px-5 text-white font-medium text-xl bg-[#3fc2cd]">TrustCare Rx</h3>
         </div>
       </div>
     </div>
