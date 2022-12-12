@@ -1,5 +1,3 @@
-import React from "react";
-
 const LearnMore = () => {
   return (
     <section className=" py-6 bg-cyan-300 text-gray-50">

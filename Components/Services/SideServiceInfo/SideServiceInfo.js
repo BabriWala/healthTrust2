@@ -1,4 +1,4 @@
-import React from "react";
+import Link from "next/link";
 
 const SideServiceInfo = () => {
   return (
@@ -8,52 +8,44 @@ const SideServiceInfo = () => {
       </h3>
       <div style={{ backgroundColor: "#3FC2CD" }}>
         <div className="py-5 px-8 text-left">
-          <a
+          <Link
             className="text-base font-medium text-white hover:text-black"
-            href="/"
-          >
-            Direct Primary Care For Business
-          </a>
-          <div className="border-b-2 border-gray-200 mt-3"></div>
-        </div>
-
-        <div className=" px-8 text-left">
-          <a
-            className="text-base font-medium text-white hover:text-black"
-            href="/"
+            href="/services/onSiteServices"
           >
             On Site Services
-          </a>
-          <div className="border-b-2 border-gray-200 mt-3"></div>
-        </div>
-
-        <div className="py-5 px-8 text-left">
-          <a
-            className="text-base font-medium text-white hover:text-black"
-            href="/"
-          >
-            DOT Physicals
-          </a>
+          </Link>
           <div className="border-b-2 border-gray-200 mt-3"></div>
         </div>
 
         <div className=" px-8 text-left">
-          <a
+          <Link
             className="text-base font-medium text-white hover:text-black"
-            href="/"
+            href="/services/dotPhysicals"
           >
-            Occupational Medicine/Workers’ Compensation
-          </a>
+            {" "}
+            DOT Physicals
+          </Link>
           <div className="border-b-2 border-gray-200 mt-3"></div>
         </div>
 
         <div className="py-5 px-8 text-left">
-          <a
+          <Link
             className="text-base font-medium text-white hover:text-black"
-            href="/"
+            href="/services/occupationalMedicine"
+          >
+            Occupational Medicine/Workers’ Compensation
+          </Link>
+          <div className="border-b-2 border-gray-200 mt-3"></div>
+        </div>
+
+        <div className=" px-8 text-left">
+          <Link
+            className="text-base font-medium text-white hover:text-black"
+            href="/services/forms"
           >
             Forms
-          </a>
+          </Link>
+          <div className="border-b-2 border-gray-200 mt-3"></div>
         </div>
       </div>
     </div>

@@ -1,8 +1,8 @@
-const OnSite = () => {
+const FormBanner = () => {
   return (
     <div
       style={{
-        backgroundImage: `url("https://trustcarehealth.com/uploads/on-site-services-banner.jpg")`,
+        backgroundImage: `url("https://trustcarehealth.com/uploads/forms-banner.jpg")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -13,12 +13,10 @@ const OnSite = () => {
       className="flex items-center"
     >
       <div className=" w-10/12 mx-auto ">
-        <h3 className="md:text-5xl text-3xl font-bold text-gray-700">
-          On Site Services
-        </h3>
+        <h3 className="md:text-5xl text-3xl font-bold text-gray-100">Forms</h3>
       </div>
     </div>
   );
 };
 
-export default OnSite;
+export default FormBanner;
