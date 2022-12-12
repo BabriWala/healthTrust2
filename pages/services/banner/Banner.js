@@ -2,12 +2,9 @@
 
 
 const Banner = (props) => {
-    // console.log(props.img.src)
-    // console.log(props.img)
     return (
-        <div className={` p-20 w-full min-h-[300px]`}>
-        {/* <div className={` p-20 w-full min-h-[300px] bg-[url(${props.img.src})]`}> */}
-            <h2 className="text-black">{props.title}</h2>
+        <div className={` p-20 w-full min-h-[300px] shadow-lg bg-indigo-500`}>
+            <h2 className="text-white font-bold text-center  text-7xl">{props.title}</h2>
         </div>
     );
 };
